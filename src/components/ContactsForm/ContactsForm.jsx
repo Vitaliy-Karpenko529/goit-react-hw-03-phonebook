@@ -10,11 +10,10 @@ class ContactsForm extends Component {
   };
 
   nameId = nanoid();
-  telId = nanoid();
+  numberId = nanoid();
 
   static propTypes = {
-    number: PropTypes.string,
-    name: PropTypes.string,
+    onSubmit: PropTypes.func.isRequired,
   };
 
   handleSubmit = e => {

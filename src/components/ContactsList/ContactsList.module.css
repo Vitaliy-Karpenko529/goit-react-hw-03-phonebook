@@ -7,6 +7,7 @@
   font-size: 20px;
   display: flex;
   justify-content: space-between;
+  width: 380px;
 }
 .info {
   font-weight: 500;
